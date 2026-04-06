@@ -1,6 +1,3 @@
 export default function handler(req, res) {
-  res.status(200).json({
-    status: "success",
-    message: "MLB API is working"
-  });
+  res.status(200).json({ message: "MLB Data API is working!" });
 }
